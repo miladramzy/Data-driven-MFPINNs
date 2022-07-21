@@ -17,17 +17,22 @@ Fig. 1. Schematic of the proposed MFPINN framework. First, PINN_L is trained usi
 
 Fig. 2. One-hold cure cycle specifications used for the case study. The red and blue curves show the temperature development in the middle section of Composite 1 (low-fidelity model) and Composite 2 (high-fidelity test).![image](https://user-images.githubusercontent.com/35118419/180121415-297d5a38-1aae-4f30-8960-10ca4156b1fe.png)
 
-![image](https://user-images.githubusercontent.com/35118419/180121454-41a11f57-6771-484a-aeaf-34398e59d66e.png)
-![image](https://user-images.githubusercontent.com/35118419/180121464-73281672-cffe-4070-8112-3be339fa32ca.png)
+![Residual_PDEonly_702_2cm_v2](https://user-images.githubusercontent.com/35118419/180121892-687e1ed9-b8e4-4a86-b807-0309d03e48b2.png)
+
+
 Fig. 3. Effect of labeled high-fidelity data in the PINN model performance. Absolute error field (°C) between the true temperature and the prediction of the trained PINN model a) with no labeled data (relative L_2=0.13), and b) with 100 FE labeled data are shown (relative L_2=0.051). For a fair visual comparison, the same color bar scale is used for both figures.
 
 ![image](https://user-images.githubusercontent.com/35118419/180121528-4577636d-1485-4bf3-9f5b-06059caec453.png)
 ![image](https://user-images.githubusercontent.com/35118419/180121534-5eaeec89-2cfd-461c-935c-e7650b540ffd.png)
-![image](https://user-images.githubusercontent.com/35118419/180121536-527b8b3f-c55d-4b73-9436-c8f1439cd044.png)
-![image](https://user-images.githubusercontent.com/35118419/180121547-c5f46e9c-0e12-40ed-937c-6887b005ae32.png)
+
+
+![Temp_dist_MFPINN-PDE_LF_Data_702_2cm](https://user-images.githubusercontent.com/35118419/180122036-7f20cb81-0dea-4c2c-8254-81615a879bf9.png)
+![Error_MFPINN-PDE_LF_Data_702_2cm](https://user-images.githubusercontent.com/35118419/180121986-a4901294-f1d7-4d6f-8839-f7125d59c842.png)
+
 Fig. 4. Performance of MFPINN model in composites’ heat transfer case study. Absolute error between the true (FE) temperature and model’s prediction is illustrated for a) vanilla PINN, b) MFPINN with no labeled high-fidelity data and d) MFPINN with labeled high-fidelity data. c) shows the experimental design described in section III.C.
 
-![image](https://user-images.githubusercontent.com/35118419/180121581-254917f7-3eab-43ef-afab-7c4e626fd4cc.png)
+![Summary_Middle](https://user-images.githubusercontent.com/35118419/180122171-ca1f3869-b343-4066-872c-6d2235641019.png)
+
 Fig. 5. Prediction of PINN and MFPINN models for part’s temperature at the center (Composite 2). FE result is also presented for comparison. The zoom-in view emphasizes the MFPINN model improvement as a result of adding labeled high-fidelity data.
 
 
