@@ -10,7 +10,7 @@ M. Ramezankhani et al., "A Data-driven Multi-fidelity Physics-informed Learning 
 
 ## Results
 ![MPINNS_ICPS](https://user-images.githubusercontent.com/35118419/180121216-ae86431e-3423-4a18-9c65-70177e4e0e88.png | width=100px)
-<img src="[https://github.com/favicon.ico](https://user-images.githubusercontent.com/35118419/180121216-ae86431e-3423-4a18-9c65-70177e4e0e88.png)" width="48">
+<img src="[https://github.com/favicon.ico](https://user-images.githubusercontent.com/35118419/180121216-ae86431e-3423-4a18-9c65-70177e4e0e88.png)" width="500">
 Fig. 1. Schematic of the proposed MFPINN framework. First, PINN_L is trained using the low-fidelity data (x_L,y_L) and PDEs (L_L). Next, to train PINN_H, the learned low-fidelity knowledge (PINN_L’s predictions) along with the high-fidelity data (x_H,y_H) and PDEs (L_H) are utilized. Automatic differentiation is used to calculate the derivates of the network predictions (yellow circles) needed for calculating the PDE loss terms.
 
 
