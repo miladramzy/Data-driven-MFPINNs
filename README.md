@@ -23,7 +23,7 @@ Fig. 2. One-hold cure cycle specifications used for the case study. The red and 
 Fig. 3. Effect of labeled high-fidelity data in the PINN model performance. Absolute error field (°C) between the true temperature and the prediction of the trained PINN model a) with no labeled data (relative L_2=0.13), and b) with 100 FE labeled data are shown (relative L_2=0.051). For a fair visual comparison, the same color bar scale is used for both figures.
 
 ![Residual_PDEonly_702_2cm_v2](https://user-images.githubusercontent.com/35118419/180121892-687e1ed9-b8e4-4a86-b807-0309d03e48b2.png)
-![Residual_MFPINN-LFOnly_702_2cm_v2](https://user-images.githubusercontent.com/35118419/180122330-3ba91613-74fa-4daf-a4fd-050a61e6f840.png)
+![Residual_MFPINN-LFOnly_702_2cm_v2](https://user-images.githubusercontent.com/35118419/180122654-7e9312e0-68f7-4a19-b187-1c9c184ae366.png)
 ![Temp_dist_MFPINN-PDE_LF_Data_702_2cm](https://user-images.githubusercontent.com/35118419/180122036-7f20cb81-0dea-4c2c-8254-81615a879bf9.png)
 ![Error_MFPINN-PDE_LF_Data_702_2cm](https://user-images.githubusercontent.com/35118419/180121986-a4901294-f1d7-4d6f-8839-f7125d59c842.png)
 
